@@ -1,0 +1,43 @@
+form {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: solid 1px #c2c2c2;
+    padding-bottom: 10px;
+    margin: auto;
+    background: #c2c2c2;
+    border-radius: 2%;
+}
+input[type=textfield] {
+    height: 100px;
+    width: 100%;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 8px 0;
+    border: 1px solid silver;
+    border-radius: 1px;
+    text-align: left;
+    color: #333;
+    background: #ff8080;
+    border-radius: 2%;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    min-width: 21%;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30%;
+    font-family: "Cairo", sans-serif;
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #333;
+}
+p{
+    text-align: center;
+    font-family: "Cairo", sans-serif;
+}
